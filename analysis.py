@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib as mp
 from matplotlib import pyplot as plt
 
+#Read a CSV file as a dataframe
 data = pd.read_csv("SpotifyTopPlaylist.csv")
 #print(data)
 print(data.head())
